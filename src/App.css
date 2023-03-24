@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.app-intro {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.language-switcher {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.language-switcher button {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
